@@ -1,0 +1,161 @@
+{
+  "manufactured": [
+    {
+      "id": "exothermic-sleeves",
+      "name": "Exothermic & Insulating Sleeves",
+      "image": "images/products/exothermic-sleeve-main.jpg",
+      "description": "High-quality exothermic and insulating sleeves designed to improve casting yield and reduce defects by maintaining metal temperature and controlling solidification.",
+      "details": {
+        "reaction_type": "Advanced exothermic reaction generating controlled heat.",
+        "temperature_distribution": "Uniform temperature distribution, reducing shrinkage defects.",
+        "versatile_sizes": "Open, Blind, Neck Down, Oval, Hot Top & Hot Plate.",
+        "applications": ["Steel Casting", "MS/SS Casting", "SG Iron Casting"],
+        "advantages": ["Enhanced yield", "Cost efficiency", "Consistent quality"]
+      }
+    },
+    {
+      "id": "sic-filters",
+      "name": "Silicon Carbide Ceramic Foam Filters (SiC Filters)",
+      "image": "images/products/sic-filter-main.jpg",
+      "description": "Premium SiC ceramic foam filters for superior molten metal filtration, ensuring cleaner castings and improved mechanical properties.",
+      "details": {
+        "filtration_efficiency": "Efficiently removes impurities and non-metallic inclusions.",
+        "thermal_stability": "Excellent thermal stability up to 1450°C.",
+        "sizes": {
+            "Square": "40×40 to 150×150 mm",
+            "Round": "Ø30 to Ø150 mm",
+            "Thickness": "15/22 mm",
+            "PoreSizes": "10/20/30 PPI"
+        },
+        "applications": ["Gray Iron Casting", "Ductile Iron Casting", "Sand Casting", "Steel Casting", "Aluminum Casting"],
+        "advantages": ["Rigorous QC", "Meets global standards", "Expert technical support"]
+      }
+    },
+    {
+      "id": "core-fix",
+      "name": "Core Fix (Core Paste)",
+      "image": "images/products/core-fix-main.jpg",
+      "description": "High-strength core paste for assembling and repairing cores and molds in foundry applications.",
+      "details": {
+        "properties": "Strong adhesion, excellent thermal stability, improves surface finish.",
+        "applications": ["Core creation and assembly", "Surface coating and repair"],
+        "advantages": ["Enhanced core strength", "Reduced casting defects", "Easy application"]
+      }
+    },
+    {
+        "id": "apc-powder",
+        "name": "APC Powder (Anti-Piping Compound)",
+        "image": "images/products/apc-powder-main.jpg",
+        "description": "Effective Anti-Piping Compound designed to minimize piping defects in castings by providing exothermic heat and insulation.",
+        "details": {
+          "properties_apc": ["Exothermic heat generation", "Anti-shrinkage properties", "Excellent thermal insulation", "Reduces feed metal requirement"]
+        }
+    }
+  ],
+  "imported": [
+    {
+      "id": "ceramic-filters",
+      "name": "Ceramic Filters",
+      "image": "images/products/ceramic-filter-generic.jpg",
+      "description": "A range of imported ceramic filters for various metal casting applications, offering improved melt cleanliness.",
+      "details": {
+        "features": "High porosity, uniform pore size, excellent chemical inertness.",
+        "benefits": ["Better casting quality", "Lower scrap rates", "Improved machinability"]
+      }
+    },
+    {
+      "id": "perlite-ore",
+      "name": "Perlite Ore (Slag Remover & Insulator)",
+      "image": "images/products/perlite-ore-main.jpg",
+      "description": "Imported Perlite Ore used as an effective slag remover and insulator in ladles and risers.",
+      "details": {
+        "applications": ["Ladle topping", "Hot topping", "Risering aid", "Molding sand additive"],
+        "sizes_perlite": "Square (25×25 to 134×134 mm), Round (Ø35 to Ø150 mm)",
+        "pore_hole_perlite": "Thickness 7–22 mm, Pore hole 1.7–3.75 mm"
+      }
+    },
+    {
+      "id": "gpc",
+      "name": "GPC (Graphite Petroleum Coke / Artificial Graphite)",
+      "image": "images/products/gpc-main.jpg",
+      "description": "High-purity Graphite Petroleum Coke (GPC) and Artificial Graphite for carbon addition in steelmaking and foundries.",
+      "details": {
+        "carbon_content": "Typically 98–99.5% carbon content.",
+        "sulfur_content": "Low sulfur levels ensuring minimal contamination.",
+        "size_grades_gpc": {
+            "Fine": "<1 mm",
+            "Medium": "1–5 mm",
+            "Coarse": "5–10 mm+"
+        },
+        "applications": ["Carbon raiser in steel and iron production", "Manufacturing of graphite products"]
+      }
+    },
+    {
+      "id": "graphite-electrodes",
+      "name": "Graphite Electrodes",
+      "image": "images/products/graphite-electrode-main.jpg",
+      "description": "High-quality imported graphite electrodes for use in electric arc furnaces (EAF) and ladle furnaces (LF).",
+      "details": {
+        "features_electrodes": "High thermal conductivity, excellent resistance to thermal shock and oxidation.",
+        "size_range_electrodes": {
+            "Diameter": "75–700 mm",
+            "Length": "1500–2700 mm"
+        },
+        "applications": ["Steel melting in EAFs", "Ferroalloy production", "Other electrometallurgical processes"]
+      }
+    },
+    {
+      "id": "steel-shots",
+      "name": "Steel Shots",
+      "image": "images/products/steel-shots-main.jpg",
+      "description": "Durable steel shots for blast cleaning, surface preparation, and shot peening applications.",
+      "details": {
+        "material": "High carbon steel, hardened and tempered.",
+        "hardness": "Typically 40–55 HRC (Rockwell C).",
+        "grain_size": "Available in various sizes from S-110 to S-660.",
+        "features_steel_shots": ["Highly reusable", "Low dust generation", "Uniform cleaning results"]
+      }
+    },
+    {
+      "id": "aluminum-paint",
+      "name": "Aluminum Paint / Coat",
+      "image": "images/products/aluminum-paint-main.jpg",
+      "description": "Specialized aluminum paint providing a heat-resistant and corrosion-resistant coating for foundry equipment and castings.",
+      "details": {
+        "features_paint": ["Extreme heat resistance (up to 600°C or higher)", "Bright aluminized finish", "Excellent corrosion protection", "Good adhesion to metal surfaces"]
+      }
+    },
+    {
+      "id": "foundry-chaplets",
+      "name": "Foundry Chaplets",
+      "image": "images/products/chaplets-main.jpg",
+      "description": "Precision foundry chaplets to support cores within molds during the casting process.",
+      "details": {
+        "types_chaplets": ["LD (Light Duty)", "HD (Heavy Duty)", "Double Stud", "Four Stud", "Custom designs available"],
+        "features_chaplets": ["Rust resistant coatings", "Precision manufactured sizes", "Ensure accurate core positioning"]
+      }
+    },
+    {
+      "id": "core-box-air-vents",
+      "name": "Core Box Air Vents",
+      "image": "images/products/air-vents-main.jpg",
+      "description": "Durable core box air vents allowing gases to escape during coremaking, preventing defects.",
+      "details": {
+        "types_vents": ["Mesh type", "Slotted type", "Perforated type"],
+        "material_vents": ["Brass", "Steel", "Aluminum"],
+        "sizes_vents": "Available in various diameters from 5 mm to 25 mm and custom sizes."
+      }
+    },
+    {
+      "id": "plastic-foundry-pattern-letters",
+      "name": "Plastic Foundry Pattern Letters",
+      "image": "images/products/pattern-letters-main.jpg",
+      "description": "High-quality plastic letters and numbers for creating patterns used in sand casting.",
+      "details": {
+        "material_letters": "Durable PVC or similar high-impact plastic.",
+        "features_letters": ["Corrosion resistant", "Easy to apply and remove", "Sharp and clear impressions"],
+        "custom_sizes_letters": "Available in standard sizes from 5 mm to 50 mm, custom fonts and sizes can be arranged."
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Request a quote from Castomate Technologies for specific foundry products. Select products, specify quantity, and provide your contact details.">
+    <meta name="keywords" content="request quote foundry, foundry product quote, exothermic sleeves price, SiC filters quote, GPC cost">
+    <title>Request a Quote - Castomate Technologies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.png" alt="Castomate Technologies Logo" class="logo">
+                <span class="logo-text">Castomate Technologies</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="industries.html">Industries Served</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <a href="request-quote.html" class="cta-button nav-cta active">Request a Quote</a>
+            <button class="menu-toggle">[icon: Menu]</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header" style="background-image: url('images/quote-banner.jpg');"> <div class="container">
+                <h1>Request a Quote</h1>
+            </div>
+        </section>
+
+        <section class="quote-form-section section-padding">
+            <div class="container">
+                <p class="lead-text">Please fill out the form below to request a quote for our products. Our sales team will get back to you shortly.</p>
+                <form id="quoteForm" class="quote-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="quoteName">Full Name:</label>
+                            <input type="text" id="quoteName" name="quoteName" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="quoteCompany">Company Name:</label>
+                            <input type="text" id="quoteCompany" name="quoteCompany" required>
+                             <span class="error-message"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="quoteEmail">Email Address:</label>
+                            <input type="email" id="quoteEmail" name="quoteEmail" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="quotePhone">Phone Number:</label>
+                            <input type="tel" id="quotePhone" name="quotePhone">
+                            <span class="error-message"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="productSelection">Select Product(s):</label>
+                        <select id="productSelection" name="productSelection" required>
+                            <option value="">-- Select a Product --</option>
+                            </select>
+                        <span class="error-message"></span>
+                    </div>
+                    
+                    <div id="additionalProductsContainer">
+                        </div>
+                    <button type="button" id="addProductBtn" class="cta-button alt small-btn">Add Another Product</button>
+
+
+                    <div class="form-group">
+                        <label for="quantity">Quantity / Requirements:</label>
+                        <textarea id="quantity" name="quantity" rows="3" placeholder="e.g., Exothermic Sleeves - Open, 1000 pcs; SiC Filters - 50x50x22mm 10PPI, 500 pcs" required></textarea>
+                        <span class="error-message"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quoteMessage">Additional Message (Optional):</label>
+                        <textarea id="quoteMessage" name="quoteMessage" rows="4"></textarea>
+                    </div>
+
+                    <button type="submit" class="cta-button">Submit Quote Request</button>
+                    <p id="quoteFormStatus" class="form-status-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Castomate Technologies</h4>
+                    <p>Your premier partner for comprehensive foundry solutions.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>[icon: Email] info@castomate.com</p>
+                    <p>[icon: Phone] +91-XXXXXXXXXX</p>
+                    <p>[icon: Address] Castomate Technologies Address, City, Country</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> Castomate Technologies. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/products.js"></script> <script src="js/script.js"></script>
+</body>
+</html>

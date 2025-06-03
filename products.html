@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Castomate Technologies' wide range of foundry products, including exothermic sleeves, SiC ceramic foam filters, GPC, graphite electrodes, and more.">
+    <meta name="keywords" content="foundry products, casting supplies, exothermic sleeves, SiC filters, ferro alloys, GPC, graphite electrodes, steel shots, core fix, ceramic filters, perlite ore, APC powder, foundry chaplets, core box air vents, plastic foundry letters">
+    <title>Our Products - Castomate Technologies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.png" alt="Castomate Technologies Logo" class="logo">
+                <span class="logo-text">Castomate Technologies</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="industries.html">Industries Served</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <a href="request-quote.html" class="cta-button nav-cta">Request a Quote</a>
+            <button class="menu-toggle">[icon: Menu]</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header" style="background-image: url('images/products-banner.jpg');"> <div class="container">
+                <h1>Our Comprehensive Product Range</h1>
+            </div>
+        </section>
+
+        <section class="products-section section-padding">
+            <div class="container">
+                <div class="product-controls">
+                    <div class="filters">
+                        <label for="category-filter">Filter by Category:</label>
+                        <select id="category-filter">
+                            <option value="all">All Products</option>
+                            <option value="manufactured">Manufactured Products</option>
+                            <option value="imported">Imported Products</option>
+                        </select>
+                    </div>
+                    <div class="search-bar">
+                        <input type="text" id="product-search" placeholder="Search products...">
+                        <button id="search-btn">[icon: Search]</button>
+                    </div>
+                </div>
+
+                <div id="product-list-container">
+                    <p class="loading-message">Loading products...</p>
+                </div>
+            </div>
+        </section>
+
+        <div id="productModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <img id="modalImage" src="" alt="Product Image" class="modal-product-image">
+                <h2 id="modalProductName">Product Name</h2>
+                <div id="modalProductDetails" class="modal-product-details">
+                    </div>
+                <div class="modal-ctas">
+                     <a href="request-quote.html" class="cta-button">Request a Quote</a>
+                     <a href="contact.html" class="cta-button alt">Contact Us for More Info</a>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="cta-section section-padding bg-dark">
+            <div class="container text-center">
+                <h2>Find the Right Products for Your Needs</h2>
+                <p>Our team is ready to assist you in selecting the best solutions for your foundry.</p>
+                <a href="contact.html" class="cta-button">Contact Us</a>
+                <a href="request-quote.html" class="cta-button alt">Request a Quote</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Castomate Technologies</h4>
+                    <p>Your premier partner for comprehensive foundry solutions.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>[icon: Email] info@castomate.com</p>
+                    <p>[icon: Phone] +91-XXXXXXXXXX</p>
+                    <p>[icon: Address] Castomate Technologies Address, City, Country</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> Castomate Technologies. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script> </body>
+</html>
